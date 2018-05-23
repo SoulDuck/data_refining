@@ -7,7 +7,6 @@ def match_fundus2cac(limit , fundus_info_dict , cac_sheet_dict): # fundus 이미
 
     for pat_code in fundus_info_dict:
         try:
-            print pat_code
             fundus_exams= fundus_info_dict[pat_code]
             for fundus_exam in fundus_exams:
                 fundus_date, target_dir = fundus_exam
